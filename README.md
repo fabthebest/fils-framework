@@ -14,23 +14,23 @@ An open-source framework for making AI, ML, Python and statistics understandable
 
 ## What is this?
 
-The FILS Framework is not just another course — it is a **comprehension validation system**. It makes AI and data science genuinely understandable to anyone with no prior coding or math background by combining five interlocking components:
+The FILS Framework is a **comprehension validation system** built out of personal necessity. It makes AI and data science understandable to anyone with no prior coding or math background by combining five interlocking components:
 
-- **The Orbital Model** — A scalable analogy architecture where technical truth is the nucleus and interchangeable everyday analogies orbit around it like electrons
-- **BRIDGIA** — A 7-case card system that structures every concept through analogy, code, intuition, and critical thinking
-- **PONT-IA** — A 7-step learning compass with built-in ethical reasoning and mastery validation
-- **Three AI Agents** — A Master Teacher that explains, a Struggling Student that stress-tests clarity, and an Evaluator that scores comprehension
-- **The 50% Mastery Gate** — Gesture-based scoring where you prove understanding by spotting errors, not just answering quizzes
+- **The Orbital Model**: a scalable analogy architecture where technical truth is the nucleus and interchangeable everyday analogies orbit around it like electrons
+- **BRIDGIA**: a 7-case card system that structures every concept through analogy, code, intuition, and critical thinking
+- **PONT-IA**: a 7-step learning compass with built-in ethical reasoning and mastery validation
+- **Three AI Agents**: a Master Teacher that explains, a Struggling Student that stress-tests clarity, and an Evaluator that scores comprehension
+- **The 50% Mastery Gate**: gesture-based scoring where you prove understanding by spotting errors, not just answering quizzes
 
-## Why another AI course?
+## Why this project?
 
-Most AI courses fall into two traps: they're either too theoretical (textbook-style math) or too shallow (copy-paste tutorials). The FILS Framework solves this by building understanding through **systematic analogies** — not just one metaphor used once, but an entire architecture of interchangeable "skins" that meet learners where they are.
+I started learning AI and ML with no coding or math background. Most resources I found were either too theoretical (textbook-style math) or too shallow (copy-paste tutorials). Neither worked for me. So I built the FILS Framework to learn through **systematic analogies**: not just one metaphor used once, but an entire architecture of interchangeable "skins" that meet you where you are.
 
-A chef understands AI through kitchen operations. A construction worker through building sites. A musician through orchestras. The technical truth stays the same — the entry point adapts.
+A chef understands AI through kitchen operations. A construction worker through building sites. A musician through orchestras. The technical truth stays the same, the entry point adapts. If you are on a similar journey, this might help you too.
 
 ## The Analogy Skins
 
-Every concept in this course can be explained through 6+ analogy systems:
+Every concept can be explained through 6+ analogy systems:
 
 | Skin | Domain | Example: "What is a neural network?" |
 |------|--------|--------------------------------------|
@@ -41,7 +41,7 @@ Every concept in this course can be explained through 6+ analogy systems:
 | Video Game | Gaming mechanics | A skill tree where each node unlocks abilities, paths combine into builds, and the final boss fight tests everything together |
 | Human Body | Biology & medicine | A nervous system where sensory neurons detect inputs, interneurons process signals through layers, and motor neurons produce the response |
 
-## Course Structure
+## Content Structure
 
 ### Phase 1: Python Foundations
 | # | Concept | Difficulty | Impact |
@@ -111,7 +111,7 @@ Every concept in this course can be explained through 6+ analogy systems:
 | 43 | Bayes' Theorem | 4/5 | 5/5 |
 | 44 | Sampling & Bias | 3/5 | 5/5 |
 
-## How to Use This Course
+## How to Use This
 
 ### Self-Study Path
 1. Read the concept card (BRIDGIA format) in the `modules/` folder
@@ -120,10 +120,10 @@ Every concept in this course can be explained through 6+ analogy systems:
 4. Use the PONT-IA compass to check your understanding
 5. Pass the mastery check (50% minimum) before moving on
 
-### With the AI Agents (the secret weapon)
-- **Professor Bridge** (`agents/teacher.md`) — Load this prompt into any LLM for Socratic, adaptive teaching that matches your pace
-- **Fabrice the Skeptic** (`agents/student.md`) — A simulated struggling learner who makes real beginner mistakes. Fabrice will propose flawed code or reasoning — your job is to spot the error. If you can teach Fabrice, you truly understand
-- **The Evaluator** (`agents/evaluator.md`) — A neutral scoring agent that rates comprehension on a 6-point scale and decides whether you can advance
+### With the AI Agents
+- **Professor Bridge** (`agents/teacher.md`): load this prompt into any LLM for Socratic, adaptive teaching that matches your pace
+- **Fabrice the Skeptic** (`agents/student.md`): a simulated struggling learner who makes real beginner mistakes. Fabrice will propose flawed code or reasoning, your job is to spot the error. If you can teach Fabrice, you truly understand
+- **The Evaluator** (`agents/evaluator.md`): a neutral scoring agent that rates comprehension on a 6-point scale and decides whether you can advance
 
 ### For Educators
 Fork this repo and adapt the analogy skins to your audience. The orbital model means you can create new skins (sports, farming, fashion, military) without changing any technical content.
@@ -176,7 +176,7 @@ Understanding is not binary. The FILS Framework uses a 6-point scoring system:
 
 Mastery tiers: 3/6 (50%) = can continue cautiously. 4/6 = validated beginner. 5/6 = can contribute to the project. 6/6 = solid mastery.
 
-The key innovation: mastery is measured through **gesture-based scoring**. Fabrice the Skeptic (the struggling student agent) proposes flawed code or reasoning. You earn points by identifying what's wrong — not by memorizing answers.
+The key innovation: mastery is measured through **gesture-based scoring**. Fabrice the Skeptic (the struggling student agent) proposes flawed code or reasoning. You earn points by identifying what's wrong, not by memorizing answers.
 
 See [docs/mastery-protocol.md](docs/mastery-protocol.md) for the full protocol and [docs/confusion-library.md](docs/confusion-library.md) for the 15 most common beginner confusions.
 
@@ -193,7 +193,7 @@ The Jupyter notebooks in this project are not standard tutorials. Every code cel
 import pandas as pd
 ```
 
-This is what makes the notebooks different from every other AI tutorial: you see the technical truth, the analogy, its limits, and the common trap — all in one glance.
+This is what makes the notebooks different: you see the technical truth, the analogy, its limits, and the common trap, all in one glance.
 
 ## The Rating System
 
@@ -208,11 +208,11 @@ Start with high-impact, low-difficulty concepts. That's where you get the fastes
 
 The FILS Framework is built on five principles:
 
-1. **Analogy First, Formalism Second** — You understand with your gut before your head. Every concept starts with a story.
-2. **The Nucleus Never Lies** — Analogies are bridges, not destinations. The technical truth (the nucleus) is always preserved and explicitly stated.
-3. **Break Your Own Bridges** — Every analogy card includes a "Mirror Mode" section that shows where the analogy fails. This builds critical thinking.
-4. **Mastery Before Motion** — You don't advance until you demonstrate 50% understanding. Speed is the enemy of depth.
-5. **Ethics Built In** — Every concept card asks "Is this ethical?" through the PONT-IA compass. AI education without ethics education is irresponsible.
+1. **Analogy First, Formalism Second**. You understand with your gut before your head. Every concept starts with a story.
+2. **The Nucleus Never Lies**. Analogies are bridges, not destinations. The technical truth (the nucleus) is always preserved and explicitly stated.
+3. **Break Your Own Bridges**. Every analogy card includes a "Mirror Mode" section that shows where the analogy fails. This builds critical thinking.
+4. **Mastery Before Motion**. You don't advance until you demonstrate 50% understanding. Speed is the enemy of depth.
+5. **Ethics Built In**. Every concept card asks "Is this ethical?" through the PONT-IA compass. AI education without ethics education is irresponsible.
 
 ## Current Status
 
@@ -226,4 +226,5 @@ This is an early release. The framework is functional but evolving.
 | Python library (`from fils import concepts, agents`) | Implemented |
 | 3 AI agent prompts (Teacher, Student, Evaluator) | Implemented |
 | 1 augmented Jupyter notebook (Python Basics) | Implemented |
-| Confusion library (15 entrie
+| Confusion library (15 entries) | Implemented |
+| Mastery protocol
