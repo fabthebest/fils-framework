@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use or reference this framework, please cite it as below."
+type: software
+title: "FILS Framework"
+abstract: "Framework for Intuitive Learning Systems. An open-source framework for making AI, ML, Python and statistics understandable through adaptive analogies, critical mirrors and mastery checks."
+authors:
+  - family-names: "Fils-Aimé"
+    given-names: "Fabrice"
+version: "0.1.0"
+date-released: "2025-05-21"
+license: MIT
+repository-code: "https://github.com/fabthebest/fils-framework"
+keywords:
+  - education
+  - machine-learning
+  - analogies
+  - pedagogy
+  - python

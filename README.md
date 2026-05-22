@@ -2,6 +2,10 @@
 
 **Framework for Intuitive Learning Systems**
 
+[![Project Status: WIP](https://img.shields.io/badge/status-WIP-yellow)]()
+[![Built by a learner](https://img.shields.io/badge/built%20by-a%20learner-blue)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 An open-source framework for making AI, ML, Python and statistics understandable through adaptive analogies, critical mirrors and mastery checks.
 
 > "The FILS Framework does not ask beginners to adapt to jargon. It spins multiple analogy worlds around a technical nucleus until understanding appears."
@@ -218,13 +222,39 @@ The FILS Framework is built on five principles:
 
 **Version: 0.1.0-alpha**
 
-This is an early release. The framework is functional but evolving.
+This is a work in progress. I am still learning the subjects covered here. The framework structure is in place but the content is evolving as my own understanding deepens.
 
 | Component | Status |
 |-----------|--------|
-| 44 BRIDGIA concept cards (6 modules) | Implemented |
-| Python library (`from fils import concepts, agents`) | Implemented |
-| 3 AI agent prompts (Teacher, Student, Evaluator) | Implemented |
-| 1 augmented Jupyter notebook (Python Basics) | Implemented |
-| Confusion library (15 entries) | Implemented |
-| Mastery protocol
+| Core framework documentation | Done |
+| Initial curriculum map (44 concepts, 6 phases) | Done |
+| 3 AI agent prompts (Teacher, Student, Evaluator) | Done |
+| Python library (`from fils import concepts, agents`) | Done |
+| 1 augmented Jupyter notebook (Python Basics) | Done |
+| Confusion library (15 entries) | Done |
+| Mastery protocol documentation | Done |
+| Full concept cards for all 44 concepts | In progress |
+| 5 remaining augmented notebooks (Phases 2-6) | Planned |
+| Colab-ready notebooks | Planned |
+| Example 3-agent conversation transcripts | Planned |
+| Interactive mastery scoring in notebooks | Planned |
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. The easiest way to contribute is to create a new analogy skin for an existing concept.
+
+## License
+
+MIT License. Use it, fork it, teach with it, build on it. See [LICENSE](LICENSE).
+
+## Credits
+
+Created by Fabrice Fils-Aimé. FILS = **F**ramework for **I**ntuitive **L**earning **S**ystems. Built while learning AI/ML from scratch, with Claude as the primary AI architect and suggestions from ChatGPT, Gemini and DeepSeek. This is a personal project shared with anyone on the same journey.
+
+The struggling learner agent is named Fabrice, because the best frameworks are built by people who feel the problem.
+
+See [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) for full credits and influences. To cite this project, see [CITATION.cff](CITATION.cff).
+
+---
+
+*"Fabrice didn't understand ML. So he built a framework that spins analogies around every concept until he understands."*

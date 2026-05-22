@@ -1,0 +1,4 @@
+# Full dependencies (includes deep learning and NLP, for Phases 4-5)
+-r requirements.txt
+torch
+transformers
