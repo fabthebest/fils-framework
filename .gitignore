@@ -25,3 +25,4 @@ Thumbs.db
 venv/
 env/
 .env/
+push-to-github.bat

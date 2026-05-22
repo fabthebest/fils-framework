@@ -214,20 +214,16 @@ The FILS Framework is built on five principles:
 4. **Mastery Before Motion** — You don't advance until you demonstrate 50% understanding. Speed is the enemy of depth.
 5. **Ethics Built In** — Every concept card asks "Is this ethical?" through the PONT-IA compass. AI education without ethics education is irresponsible.
 
-## Contributing
+## Current Status
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. The easiest way to contribute is to create a new analogy skin for an existing concept.
+**Version: 0.1.0-alpha**
 
-## License
+This is an early release. The framework is functional but evolving.
 
-MIT License — use it, fork it, teach with it, build on it.
-
-## Credits
-
-Created by Fabrice Fils-Aimé. FILS = **F**ramework for **I**ntuitive **L**earning **S**ystems. Developed iteratively with assistance from multiple AI systems (ChatGPT, Gemini, DeepSeek, Claude) as a proof-of-concept for human-AI collaborative curriculum design.
-
-The struggling learner agent is named Fabrice — because the best frameworks are built by people who felt the problem.
-
----
-
-*"Fabrice didn't understand ML. So he built a framework that spins analogies around every concept until even Fabrice understands."*
+| Component | Status |
+|-----------|--------|
+| 44 BRIDGIA concept cards (6 modules) | Implemented |
+| Python library (`from fils import concepts, agents`) | Implemented |
+| 3 AI agent prompts (Teacher, Student, Evaluator) | Implemented |
+| 1 augmented Jupyter notebook (Python Basics) | Implemented |
+| Confusion library (15 entrie
